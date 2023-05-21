@@ -49,7 +49,7 @@ for /d %%I in ("hpanalyticscomp.inf*") do (
     echo The following HP Analytics driver/installation path has been found. Please confirm the path provided below before proceeding:
     echo - "%%~fI"
     echo 
-echo IMPORTANT: Please ensure the accuracy of the installation path. Proceeding with the script will result in changing the permissions of all files and subfolders within the specified path, followed by their permanent deletion. If the provided path is incorrect, it is highly recommended to press CTRL+C now to terminate the program. By continuing with the execution of this script, you acknowledge that you have verified the installation path and agree to the potential consequences of altering permissions and permanently deleting files.
+    echo IMPORTANT: Please ensure the accuracy of the installation path. Proceeding with the script will result in changing the permissions of all files and subfolders within the specified path, followed by their permanent deletion. If the provided path is incorrect, it is highly recommended to press CTRL+C now to terminate the program. By continuing with the execution of this script, you acknowledge that you have verified the installation path and agree to the potential consequences of altering permissions and permanently deleting files.
     pause
     echo [i] Going to "%%~fI"
     cd "%%~fI" 
