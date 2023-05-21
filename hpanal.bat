@@ -9,7 +9,7 @@ echo  888    888 888     d8888888888 888  888 888  888 888
 echo  888    888 888    d88P     888 888  888 "Y888888 888 
 echo            HP Analytics Native App Liberator
 echo      2023 (CC BY 4.0) - github.com/disketteomelette
-echo  
+echo.
 echo *******************************************************************************
 echo                     WARNING: USE AT YOUR OWN RISK
 echo *******************************************************************************
@@ -17,7 +17,7 @@ echo This program is provided as is. I do not assume any responsibility for its 
 echo IMPORTANT: This script utilizes potentially dangerous instructions. I do not guarantee the functionality or safety of the script. 
 echo By executing this program, you acknowledge that you are solely responsible for any consequences that may arise from its use. Proceed with caution and at your own risk.
 echo *******************************************************************************
-echo  
+echo. 
 echo Please note: This program requires administrative privileges to function properly. Make sure to run it as an administrator.
 echo ----------- 
 pause 
@@ -48,7 +48,7 @@ for /d %%I in ("hpanalyticscomp.inf*") do (
     echo *******************************************************************************
     echo The following HP Analytics driver/installation path has been found. Please confirm the path provided below before proceeding:
     echo - "%%~fI"
-    echo 
+    echo. 
     echo IMPORTANT: Please ensure the accuracy of the installation path. Proceeding with the script will result in changing the permissions of all files and subfolders within the specified path, followed by their permanent deletion. If the provided path is incorrect, it is highly recommended to press CTRL+C now to terminate the program. By continuing with the execution of this script, you acknowledge that you have verified the installation path and agree to the potential consequences of altering permissions and permanently deleting files.
     pause
     echo [i] Going to "%%~fI"
@@ -62,5 +62,5 @@ for /d %%I in ("hpanalyticscomp.inf*") do (
     )
     cd /d ..
 )
-echo .
+echo.
 echo [!] PROCESS COMPLETED. Please verify that everything has been executed successfully. It is recommended to restart your PC and run this script again (even though it may cause errors) to remove any remaining files that could be in use. 
